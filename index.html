@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- start header -->
+    <header class="header">
+        <div class="container-header">
+            <nav class="nav-header">
+                <ul class="nav-list-header list">
+                    <li class="nav-item-header">
+                        <a class="nav-header-link link" href="">Gmail</a>
+                    </li>
+                    <li class="nav-item-header">
+                        <a class="nav-header-link link" href="">Зображення</a>
+                    </li>
+                    <li class="nav-item-header">
+                        <svg class="nav-svg-dots" >
+                            <use href="./sprite.svg#icon-menu-dots"></use>
+                        </svg>
+                    </li>
+                    <li class="nav-item-header">
+                        <button class="nav-btn-header" type="button">Увійти</button>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+        <section>
+            <div class="main-container">
+                <img class="main-logo" src="./img/google-logo.png" alt="">
+
+                <form class="main-form" action="https://www.google.com/search" method="GET">
+                    <div class="input-container">
+                        <svg class="main-form-svg search">
+                            <use href="./sprite.svg#icon-search"></use>
+                        </svg>
+                        <input class="main-form-input" type="text">
+                        
+
+                        <ul class="main-svg-list list">
+                            <li class="main-svg-item">
+                                <svg class="main-form-svg">
+                                    <use href="./sprite.svg#icon-keyboard"></use>
+                                </svg>
+                            </li>
+                            <li class="main-svg-item">
+                                <svg class="main-form-svg">
+                                    <use href="./sprite.svg#icon-microphone"></use>
+                                </svg>
+                            </li>
+                            <li class="main-svg-item">
+                                <svg class="main-form-svg">
+                                    <use href="./sprite.svg#icon-photo-search"></use>
+                                </svg> 
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+
+                <ul class="main-list-btn list">
+                    <li class="main-btn-item">
+                        <button class="main-btn" type="button">Пошук Google</button>
+                    </li>
+                    <li class="main-btn-item">
+                        <button class="main-btn" id="change-logo-btn">Мені пощастить!</button>
+                    </li>
+                </ul>
+
+                <button class="main-btn lang">Мова Google : <span class="span-lang"><a class="span-lang-link link" href="">English</a></span></button>
+            </div>
+        </section>
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="footer-container-main">
+            <div class="footer-container city">
+                <a class="footer-container-name link" href="">Україна</a>
+            </div>
+
+            <div class="footer-container inform">
+                <ul class="footer-container-inform-list list">
+                    <li class="footer-container-inform-item">
+                        <a href="" class="footer-container-name link">Про Google</a>
+                    </li>
+                    <li class="footer-container-inform-item">
+                        <a href="" class="footer-container-name link">Реклама</a>
+                    </li>
+                    <li class="footer-container-inform-item">
+                        <a href="" class="footer-container-name link">Для бізнесу</a>
+                    </li>
+                    <li class="footer-container-inform-item">
+                        <a href="" class="footer-container-name link">Як працює Пошук</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-container-inform-list settings list">
+                    <li class="footer-container-inform-item">
+                        <a href="" class="footer-container-name link">Конфедіційність</a>
+                    </li>
+                    <li class="footer-container-inform-item">
+                        <a href="" class="footer-container-name link">Умови</a>
+                    </li>
+                    <li class="footer-container-inform-item">
+                        <a href="" class="footer-container-name link">Налаштування</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="./script.js"></script>
+</body>
+</html>
